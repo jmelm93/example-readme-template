@@ -22,11 +22,11 @@
    |  
    |-- api/  
    |    |-- google/                              # **NOT IN USE**  
-   |            |-- __init__.py                  # **NOT IN USE**  
-   |    |-- google_search_console/               # **CORE SCRIPT** - GSC API Package / Directory  
-   |            |-- __init__.py                  # **CORE SCRIPT** - Initializes `google_search_console` Package  
-   |            |-- errors.py                    # **CORE SCRIPT** - Error Handles for GSC API  
-   |            |-- gsc.py                       # **CORE SCRIPT** - GSC API Data Aggregation Script  
+   |    |       |-- __init__.py                  # **NOT IN USE**  
+   |    |-- google_search_console/               # **CORE SCRIPT** - GSC API Package   
+   |    |       |-- __init__.py                  # **CORE SCRIPT** - Initializes `google_search_console` Package  
+   |    |       |-- errors.py                    # **CORE SCRIPT** - Error Handles for GSC API  
+   |    |       |-- gsc.py                       # **CORE SCRIPT** - GSC API Data Aggregation Script  
    |    |-- __init__.py                          # **CORE SCRIPT** - Defines `api` Package  
    |    |-- config.py                            # **CORE SCRIPT** - Defines Data Request Criteria  
    |  
