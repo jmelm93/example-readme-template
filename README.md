@@ -1,24 +1,24 @@
 
 
-**CORE SCRIPT** == Anything that exists to support the actual data cleaning process script (e.g., semrush_data_generator.py & gsc.py)
+**CORE SCRIPT** == Anything that exists to support the actual data cleaning process script (e.g., semrush_data_generator.py & gsc.py)  
 
-**0AUTH** == Any files that specifically exist for the 0AUTH flow (e.g., ..not sure on this one - likely google_auth.py / helpers.py)
-**FIREBASE** == Any files that exist to build Firestore functionality
+**0AUTH** == Any files that specifically exist for the 0AUTH flow (e.g., ..not sure on this one - likely google_auth.py / helpers.py)  
+**FIREBASE** == Any files that exist to build Firestore functionality  
 
-**SITEWIDE COMPONENTS** == Any front-end files that are utilized to create the overarching theme across all pages (e.g., navigation.html)
-**SINGLE PAGE COMPONENTS** == Any front-end files that influence only a single page template
+**SITEWIDE COMPONENTS** == Any front-end files that are utilized to create the overarching theme across all pages (e.g., navigation.html)  
+**SINGLE PAGE COMPONENTS** == Any front-end files that influence only a single page template  
 
-**NOT IN USE** == Anything that's not actually in use at the moment (e.g., I don't think anything under the api/google/ directory is in use)
-**UTILITY** == Doesn't impact app - but exists as a best practice (e.g., .gitignore)
-**GENERAL** == App component that is part of the core functionality influencing the entire app (e.g., app.yaml & main.py) 
+**NOT IN USE** == Anything that's not actually in use at the moment (e.g., I don't think anything under the api/google/ directory is in use)  
+**UTILITY** == Doesn't impact app - but exists as a best practice (e.g., .gitignore)  
+**GENERAL** == App component that is part of the core functionality influencing the entire app (e.g., app.yaml & main.py)   
 
 ############################################################################################################################################
 ############################################################################################################################################
 ############################################################################################################################################
+  
+**Below is what I believe is accurate, but may be wrong. Please update if so.**  
 
-**Below is what I believe is accurate, but may be wrong. Please update if so.**
-
-< PROJECT ROOT >
+< PROJECT ROOT >  
    |
    |-- api/
    |    |-- google/                              # **NOT IN USE**
