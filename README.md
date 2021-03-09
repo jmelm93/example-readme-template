@@ -1,5 +1,6 @@
 
 
+
 **CORE SCRIPT** == Anything that exists to support the actual data cleaning process script (e.g., semrush_data_generator.py & gsc.py)  
 
 **0AUTH** == Any files that specifically exist for the 0AUTH flow (e.g., ..not sure on this one - likely google_auth.py / helpers.py)  
@@ -12,12 +13,13 @@
 **UTILITY** == Doesn't impact app - but exists as a best practice (e.g., .gitignore)  
 **GENERAL** == App component that is part of the core functionality influencing the entire app (e.g., app.yaml & main.py)   
 
-############################################################################################################################################
-############################################################################################################################################
-############################################################################################################################################
+#########################################################################
+#########################################################################
+#########################################################################
   
 **Below is what I believe is accurate, but may be wrong. Please update if so.**  
 
+```bash
 < PROJECT ROOT >  
    |  
    |-- api/  
@@ -61,3 +63,4 @@
    |-- semrush_data_generator.py                 # **CORE SCRIPT** - Core Script  
    |-- settings.py                               # **GENERAL** - Defines ENV Variables  
    |-- workflows-app-XXXXXX.json                 # **0AUTH** - Client ID for Web App  
+```
